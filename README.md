@@ -14,12 +14,14 @@ Tratamento de Erros: Mensagens informativas para CEPs inválidos, erros de conex
 
 Screenshots
 Tela Inicial (Busca por CEP)
+![Tela Inicial](assets/telainicio.png)
+Tela de Resultado (Exemplo de Busca)
+![Tela Resultado](assets/telaresultado.png)
 
 Resultado da Busca por CEP
 
-!(Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-07-13%20at%2022.46.32.png)
 
-!(Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-07-13%20at%2022.46.45.png)
+
 
 Tecnologias Utilizadas
 Flutter: Framework para desenvolvimento de aplicativos multiplataforma.
