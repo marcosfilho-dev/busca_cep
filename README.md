@@ -1,16 +1,62 @@
-# busca_cep
+Busca de CEP
+Um aplicativo Flutter simples e intuitivo para buscar informações de CEP (Código de Endereçamento Postal) no Brasil. Permite buscar tanto por um CEP específico quanto por nome de cidade e estado.
 
-A new Flutter project.
+Funcionalidades
+Busca por CEP: Insira um CEP de 8 dígitos e obtenha o endereço completo (logradouro, complemento, bairro, localidade, UF).
 
-## Getting Started
+Busca por Cidade/Estado: Pesquise CEPs por nome de cidade e sigla do estado, exibindo uma lista dos primeiros resultados encontrados.
 
-This project is a starting point for a Flutter application.
+Interface Amigável: Design limpo e fácil de usar, com campos de entrada claros e exibição organizada dos resultados.
 
-A few resources to get you started if this is your first Flutter project:
+Indicador de Carregamento: Feedback visual durante as operações de busca.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Tratamento de Erros: Mensagens informativas para CEPs inválidos, erros de conexão ou resultados não encontrados.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Screenshots
+Tela Inicial (Busca por CEP)
+
+Resultado da Busca por CEP
+
+!(Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-07-13%20at%2022.46.32.png)
+
+!(Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20Max%20-%202025-07-13%20at%2022.46.45.png)
+
+Tecnologias Utilizadas
+Flutter: Framework para desenvolvimento de aplicativos multiplataforma.
+
+Dart: Linguagem de programação.
+
+HTTP: Para realizar requisições à API externa.
+
+ViaCEP API: API pública utilizada para obter os dados de CEP.
+
+Como Executar o Projeto
+Para rodar este projeto em sua máquina local, siga os passos abaixo:
+
+Pré-requisitos
+Certifique-se de ter o Flutter SDK instalado e configurado em seu ambiente de desenvolvimento. Você pode encontrar as instruções de instalação aqui.
+
+Instalação
+Clone o repositório:
+
+git clone [URL_DO_SEU_REPOSITORIO]
+cd [NOME_DA_PASTA_DO_PROJETO]
+
+Instale as dependências:
+
+flutter pub get
+
+Execução
+Conecte um dispositivo ou inicie um emulador:
+
+flutter devices
+
+Execute o aplicativo:
+
+flutter run
+
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorias, novas funcionalidades ou correção de bugs.
+
+Licença
+Este projeto está licenciado sob a Licença MIT.
